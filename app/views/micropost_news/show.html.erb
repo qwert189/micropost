@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @micropost_news.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @micropost_news.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_micropost_news_path(@micropost_news) %> |
+<%= link_to 'Back', micropost_news_path %>
