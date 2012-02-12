@@ -1,0 +1,33 @@
+# To update your Gemfile on your local machine
+bundle install
+bundle update
+
+# To see what files are modified
+git status
+
+# To add a modified file to git for checkin
+git add <file>
+git commit -m "Message"
+
+# To push to github
+git push
+
+# To push to heroku (publish webpage)
+git push heroku  master
+
+# To add project to github
+git remote add origin git@github.com:qwert189/micropost.git
+
+# Tutorials
+http://ruby.railstutorial.org/chapters/beginning#sec:the_first_application
+
+# To precompile stuff
+bundle exec rake assets:precompile
+
+# To publish Rails db to heroku
+heroku rake db:migrate
+
+# To start a new rails project
+rails new <project>
+
+# To create a scaffold
