@@ -3,6 +3,8 @@ Thesis::Application.routes.draw do
 
   get "pages/contact"
 
+  get "pages/about"
+
   resources :microposts
 
   # The priority is based upon order of creation:
